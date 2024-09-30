@@ -3,8 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <a href="../htmlcss-responsive-layout/css/style.css"></a>
 
+    <!--Collegamento con la pagina css-->
+    <link rel="stylesheet" href="css/style.css"></link>
+
+    <!--Collegamnto front per il titolo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap"
+      rel="stylesheet"
+    />
+    <!--Collegamnto front per il testo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap" rel="stylesheet">
+
+    <!--Link collegamento per le icone-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -14,21 +29,24 @@
     />
     <title>Giallo Boleano</title>
   </head>
+
+  <!--Sezione Body-->
   <body>
+
     <!--Sezione header-->
     <header class="upper-header">
       <div class="container">
-        <h1>Giallo Booleano</h1>
+        <h1 class="nerko-one-regular">Giallo Booleano</h1>
       </div>
     </header>
 
     <!--Sezione Main-->
-    <main>
+    <main class="Montserrat">
       <!--Primo contenitore con video-->
       <section class="upper-main">
         <div class="container">
           <div class="blocco1">
-            <h3>DOLCI E DESSERTS</h3>
+            <h3 class="title-grey">DOLCI E DESSERTS</h3>
             <h2>
               Tiramisù
               <span>(Dolce Tradizione)</span>
@@ -40,8 +58,8 @@
           </div>
 
           <!-- Secondo contenitore informazioni base-->
-          <div class="Blocco2">
-            <h4>In breve</h4>
+          <div class="blocco2">
+            <h3>In breve</h3>
             <ul class="upper-list">
               <li class="item-list">Difficoltà:<strong>Facile</strong></li>
               <li class="item-list">Costo:<strong>Contenuto</strong></li>
@@ -59,31 +77,33 @@
 
       <div class="button">
         <div class="container">
-          <button>
+          <button class="btn">
             <i class="fa-brands fa-facebook" style="color: #337dcc"></i>
           </button>
-          <button>
+          <button class="btn">
             <i class="fa-brands fa-twitter" style="color: #74c0fc"></i>
           </button>
-          <button>
+          <button class="btn">
             <i class="fa-brands fa-instagram" style="color: #e60063"></i>
           </button>
-          <button>
+          <button class="btn">
             <i class="fa-brands fa-pinterest" style="color: #c11515"></i>
           </button>
-          <button>
+          <button class="btn">
             <i class="fa-brands fa-youtube" style="color: #ca2f2f"></i>
           </button>
+            <img
+            src="../htmlcss-responsive-layout/img/banner.png"
+            alt="Foto-sparisce"
+            />
+
         </div>
       </div>
 
       <!--Contenitore immagine pubblicitaria-->
       <div class="">
         <div class="container">
-          <img
-            src="../htmlcss-responsive-layout/img/banner.png"
-            alt="Foto-sparisce"
-          />
+          
         </div>
       </div>
 

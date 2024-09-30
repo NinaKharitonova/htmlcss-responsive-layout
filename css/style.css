@@ -14,3 +14,53 @@
   width: 1000px;
   max-width: 100%;
 }
+
+main {
+  background-color: rgb(175, 170, 170);
+}
+
+.nerko-one-regular {
+  font-family: "Nerko One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(240, 165, 59);
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+/* # HEADER */
+
+/* # MAIN */
+
+.upper.main .title-gry {
+  color: grey;
+}
+
+.upper-main > .container .blocco1 {
+  margin: 14px 135px;
+}
+
+.upper-main > .container .blocco2 {
+  margin: 59px 22px;
+  background-color: white;
+  width: 910px;
+  height: 224px;
+  padding: 25px 79px;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 23px;
+  background-color: white;
+  border: none;
+  padding: 13px 71px;
+  font-size: 0.8rem;
+  margin: 16px;
+}
+
+/* # FOOTER */
